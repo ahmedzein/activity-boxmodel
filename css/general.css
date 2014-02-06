@@ -13,6 +13,15 @@
 }
 
 html {
+        
+/* Controls the zoom of the type on mobile */
+    -moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+
+/* Control the type size on mobile and desktop */
+    
     font-size: 100%; /* 100% = 16px = 1rem */
     font-family: Times, serif;
 }
